@@ -94,10 +94,15 @@
 #     for ii in b:
 #         print(i + ii)
 
-names =["susan", "tom", "edward"]
-mood = ["happy", "sad"]
+# names =["susan", "tom", "edward"]
+# mood = ["happy", "sad"]
 
-for i in names:
-    for ii in mood:
-        print(i, "is", ii)
-    
+# for i in names:
+#     for ii in mood:
+#         print(i, "is", ii)
+
+a = (1) and (2)
+print(a)
+
+if a:
+    print("afsd")
