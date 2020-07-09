@@ -101,8 +101,13 @@
 #     for ii in mood:
 #         print(i, "is", ii)
 
-a = (1) and (2)
-print(a)
+# a = (1) and (2)
+# print(a)
 
-if a:
-    print("afsd")
+# if a:
+#     print("afsd")
+
+number = input("Write a positive number: ")
+
+for i in number:
+    print(i)
