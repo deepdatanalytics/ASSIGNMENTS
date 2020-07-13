@@ -48,8 +48,14 @@
 # a = tuple(family_members)
 # print(a)
 
-for i in range(12):
-    print(i)
-    if i == 9:
-        print("olay bitmiştir.")
-        break
+# for i in range(12):
+#     print(i)
+#     if i == 9:
+#         print("olay bitmiştir.")
+#         break
+
+# word = 'clarusway'
+# n = 3
+# front = word[:n]
+# back = word[(n+1):]
+# print(front + back)
