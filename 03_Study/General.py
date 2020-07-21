@@ -59,3 +59,95 @@
 # front = word[:n]
 # back = word[(n+1):]
 # print(front + back)
+
+
+# a = [1, 2, 3]
+
+# b = [1, 3, 4, 5, 6, 6]
+
+# print(1 in a)
+
+
+# def texter(a, b, c):
+#     print(f"{b} {c} {a}")
+
+# # a= "i"
+# # b= "love"
+# # c= "you"
+
+# texter(b="i", a="you", c="love")
+
+
+# def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
+#     print("-- This parrot wouldn't", action, end=' ')
+#     print("if you put", voltage, "volts through it.")
+#     print("-- Lovely plumage, the", type)
+#     print("-- It's", state, "!")
+
+# parrot("merhaba")
+
+
+# even = []
+# odd = []
+
+# def slicer(*numbers):
+#     for i in numbers:
+#         if i % 2 == 0:
+#             even.append(i)
+#         else:
+#             odd.append(i)
+
+# slicer(1, 2, 3, 4, 5, 6, 7, 8, 9)
+# print(even)
+# print(odd)
+
+
+# def organizer(**yeni):
+#     names = [a for a in yeni.keys()]
+#     ages = [a for a in yeni.values()]
+#     print(names)
+#     print(ages)
+
+# organizer(Beth=26, OS=25, Zart=32, Zurt=34)
+
+
+# def merger(a, b, c, d):
+#     print(f"For me {a} {d} and {c} {b} are geniuses")
+
+# genius = ("bill", "rossum", "guido van", "gates")
+# merger(*genius)
+
+# def meaner(a, b, c):
+#     print((a+b+c)/3)
+
+# friends = {a : 3, b : 4, c : 5}
+
+# meaner(**friends)
+
+
+# def kwar(1, 2):
+#     print(x,  y, "denemesidir")
+
+# sozluk = {"x" : "ikizim", "y" : "yeğim"}
+
+# kwar(**sozluk)
+# kwar("yeni", "deneme")
+
+
+# bayan = {"f" :["marry", "bella", "susan"], "m" :["fred", "paul", "bahadir"]}
+
+# def mur(f, m):
+#     # a = [(f[0], m[0]), (f[1], m[1]), (f[2], m[2])]
+#     x = zip(f, m)
+#     print(list(x))
+
+# mur(**bayan)
+
+
+# def not_string(word):
+#     if word.startswith("not"):
+#         return word
+#     else: return ("not"+word)
+
+# print(not_string("not"))
+

@@ -90,3 +90,12 @@
 # [i for i in "beri gel berber" if i == "e"]
 
 # [i for i in "beri gel berber" if i != "e" and i != " "]
+# # print(0xA + 0xB + 0xC)
+# print("abcd"[2:])
+
+# a = "dsafs"
+# b = "a"
+
+# print(a - 3)
+
+print("a" "b", 2)
