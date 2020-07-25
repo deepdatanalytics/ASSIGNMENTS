@@ -32,7 +32,22 @@
 # print(math.__doc__)
 
 
-# my_file = open("aa.txt", "r")
+# my_file = open("01_NOTLAR.txt", "r")
 
-# print(my_file.read(5))
+# for i in my_file.readlines():
+#     print(i)
+
 # my_file.close()
+
+
+# with open("fruits.csv", "r", encoding="utf-8") as file:
+#     print(file.read())
+
+
+import csv 
+
+with open("fruits.csv", "r", newline="", encoding="utf-8") as file:
+    csv_rows = csv.reader(file)
+
+    for row in csv_rows:
+        print(row)

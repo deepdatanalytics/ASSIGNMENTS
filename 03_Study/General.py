@@ -151,3 +151,127 @@
 
 # print(not_string("not"))
 
+
+# def team_names(*teams) :
+#     print('The teams in Premier League are :')
+#     for i in teams :
+#         print('-', i)
+
+# team_names('Liverpool', 'M.United', 'M.City', 'Arsenal')
+
+# def make_sentence(**kwargs):
+#     result = ""
+#     # Iterating over the Python kwargs dictionary
+#     for i in kwargs.values():
+#         result += i
+#     return result
+
+# print(make_sentence(a="I ", b="love ", c="Clarusway!"))
+
+
+# count = 1
+
+# def counter():
+#     global count 
+#     count += 1
+#     print(count)  
+
+# counter()
+
+
+
+# x = 'My name is Richard'
+# def my_function_1(): 
+#     x = 'My name is John'
+    
+# print(x)
+  
+
+
+# def outer():
+#     x = "previous"
+    
+#     def inner():
+#         nonlocal x
+#         x = "later"
+#         print("inner:", x)
+    
+#     inner()
+#     print("outer:", x)
+
+# outer()
+# print(x)
+
+
+# number_list=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# result= list(filter(lambda x: x % 2 != 0, number_list))   
+
+# print(result)
+
+# print((lambda x: x % 2 != 0)(3))
+
+
+# x = 2
+
+# def foo():
+#     x = 2
+#     print(x)
+
+# foo()
+
+
+# count = 123
+
+# def x():
+#     a = count + 1
+#     print(a)
+
+# x()
+
+
+# def scope_test():
+#     def do_local():
+#         spam = "local spam"
+ 
+#     def do_nonlocal():
+#         nonlocal spam
+#         spam = "nonlocal spam"
+ 
+#     def do_global():
+#         global spam
+#         spam = "global spam"
+ 
+#     spam = "test spam"
+#     do_local()
+#     print("After local assignment:", spam)
+#     do_nonlocal()
+#     print("After nonlocal assignment:", spam)
+#     do_global()
+#     print("After global assignment:", spam)
+ 
+# scope_test()
+# print("In global scope:", spam) 
+
+
+# func = lambda x: x[::-1]
+# print(func("abcd"))
+
+
+# list = [1, 2, 3, 4]
+
+# for i in list:
+#     a = lambda x: "even" if x % 2 == 0 else "odd"
+#     print(i, ":", a(i))
+
+# print("sadfas")
+# print('''birinci satırım
+#             ikinci satırım''')
+
+
+
+toplacıkar = {"topla" : lambda x, y : x + y, "çıkar" : lambda x, y : x - y, "a" : 111, "b" : 222}
+
+toplacıkar.update({"a" : 111})
+
+print(toplacıkar)
