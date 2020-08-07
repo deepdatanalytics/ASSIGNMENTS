@@ -270,8 +270,26 @@
 
 
 
-toplacıkar = {"topla" : lambda x, y : x + y, "çıkar" : lambda x, y : x - y, "a" : 111, "b" : 222}
+# toplacıkar = {"topla" : lambda x, y : x + y, "çıkar" : lambda x, y : x - y, "a" : 111, "b" : 222}
 
-toplacıkar.update({"a" : 111})
+# toplacıkar.update({"a" : 111})
 
-print(toplacıkar)
+# # print(toplacıkar)
+
+# word = "clarusc"
+
+# word2 = list(word)
+
+# print(word2)
+
+# word2[0] = "s"
+
+# print(word2)
+
+# print(str(word2))
+
+a = "a-b-c-d"
+
+q, w, e, r = a.split("-")
+print(q)
+print(w)

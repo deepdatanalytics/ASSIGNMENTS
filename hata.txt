@@ -1,0 +1,8 @@
+isim,hata
+mehmer,name 'asss' is not defined 
+mehmet,name 'asss' is not defined 
+yeşim,unsupported operand type(s) for +: 'int' and 'str' 
+ayşe,invalid literal for int() with base 10: 'bes' 
+terzi,invalid literal for int() with base 10: 'bes' 
+selmin,division by zero 
+stres,division by zero 

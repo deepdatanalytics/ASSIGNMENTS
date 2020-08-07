@@ -11,38 +11,39 @@ sudoku = [
 ]
 
 counter = 0
-strhali = ""
+cikti = ""
+tire = "- - - - - - - - - - -\n"
 
 for i in sudoku:
     if counter == 0 or counter % 3 == 0:
-        strhali += "- - - - - - - - - - -\n"
+        cikti += tire
         c = 1
         for a in i:
             if c % 3 == 0 and c != 9:
-                strhali += str(a) + " " + "| "
+                cikti += str(a) + " " + "| "
             else:
-                strhali += str(a) + " "
+                cikti += str(a) + " "
             c += 1
-        strhali += "\n"
+        cikti += "\n"
     elif counter == 8:
         c = 1
         for a in i:
             if c % 3 == 0 and c != 9:
-                strhali += str(a) + " " + "| "
+                cikti += str(a) + " " + "| "
             else:
-                strhali += str(a) + " "
+                cikti += str(a) + " "
             c += 1
-        strhali += "\n" + "- - - - - - - - - - -\n"       
+        cikti += "\n" + tire       
     else:
         c = 1
         for a in i:
             if c % 3 == 0 and c != 9:
-                strhali += str(a) + " " + "| "
+                cikti += str(a) + " " + "| "
             else:
-                strhali += str(a) + " "
+                cikti += str(a) + " "
             c += 1
-        strhali += "\n"
+        cikti += "\n"
 
     counter += 1
     
-print(strhali)
+print(cikti)
